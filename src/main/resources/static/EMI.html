@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.css" rel="stylesheet"/>
+    <title>SIP</title>
+</head>
+<body >
+
+<form class="flex flex-col border border-black w-1/2 p-2" id="form">
+    <label for="select">SIP Type</label>
+
+    <select id="select">
+        <option value="buy">Annually</option>
+        <option value="sell">Half-Year</option>
+    </select>
+    <label for="select">Amount</label>
+    <input type="text" class="input" id="quantity"/>
+    <label for="select">Expected Annual Return</label >
+    <input type="text" class="input" id="Amount"/>
+    <label for="select">Years</label >
+    <input type="text" class="input" id="Years"/>
+
+    <button type="submit" id="calculateButton"> Calculate</button>
+    <button type="submit" id="Clear"> Clear</button>
+
+
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+</body>
+</html>
